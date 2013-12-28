@@ -1,0 +1,105 @@
+@import "../reindeer/reindeer.scss";
+
+@mixin mytheme {
+	@include reindeer;
+	
+	.v-link{
+		padding: 5px 2px;
+	}
+	
+	.asd{
+		width: 100%;
+	}
+	
+	.button{
+		margin: 6px;
+	}
+	
+	.upload{
+		margin: 20px;
+	}
+	
+	.tree{
+		margin: 20px;
+	}
+	
+	.userbar-horizontallayout{
+		height: auto;
+		width: 100%;
+		margin: 0px;
+		background: rgb(220, 220, 220);
+	}
+	
+	.v-slot-userbar-title{
+		width: 50%;
+	}
+	
+	.v-slot-userbar-rightpanel{
+		width: 50%;
+		text-align: right;
+	}
+	
+	.userbar-title{
+		text-align: left;
+		font-size: 18px;
+		padding: 10px;
+	}
+	
+	.user-label{
+		font-size: 18px;
+		padding: 10px;
+	}
+
+	.form-verticallayout{
+		text-align: center;
+		margin: 5px;
+		width: 100%;
+	}
+	
+	.form-label{
+		width: 100px;
+		height: 26px;
+		padding: 3px;
+		margin: 3px 0px;
+		text-align: right;
+	}
+	
+	.auth-textfield{
+		width: 310px;
+		padding: 3px;
+		margin: 3px 0px;
+		text-align: center;
+	}
+	
+	.auth-codelabel{
+		padding: 5px 2px;
+	}
+	
+	.title{
+		text-align: center;
+		font-size: 50px;
+		margin: 20px;
+		padding: 20px;
+	}
+	
+	.login-textfield{
+		width: 120px;
+		padding: 3px;
+		margin: 3px 0px;
+	}
+	
+	.auth-verticallayout{
+		text-align: center;
+	}
+	
+	.error-horizontallayout{
+		width: 100%;
+		text-align: center;
+		padding: 5px;
+	}
+	
+	.v-caption-error-label{
+		color: #cc0000;
+	}
+	
+}
